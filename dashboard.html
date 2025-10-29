@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loopzy - Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Good afternoon, User</h1>
+      <p>Here's your progress for today</p>
+    </header>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>Today's Progress</h2>
+        <span id="progress-percentage">--%</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progress-bar"></div>
+      </div>
+
+      <div class="grid-two">
+        <div>
+          <h3>Habits</h3>
+          <ul id="habit-list"></ul>
+          <button onclick="alert('Add Habit')">+ Add Habit</button>
+        </div>
+        <div>
+          <h3>Tasks</h3>
+          <ul id="task-list"></ul>
+          <button onclick="alert('Add Task')">+ Add Task</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-two">
+      <div class="card motivation">
+        <h2>Daily Motivation</h2>
+        <blockquote>"We are what we repeatedly do. Excellence, then, is not an act, but a habit."</blockquote>
+        <cite>— Aristotle</cite>
+      </div>
+      <div class="card">
+        <h2>AI Insight</h2>
+        <p>Based on your patterns, you're most productive in the mornings. Try scheduling complex tasks before noon.</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>This Week's Overview</h2>
+      <div class="week-grid" id="week-overview"></div>
+    </section>
+  </div>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

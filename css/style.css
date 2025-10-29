@@ -1,0 +1,81 @@
+
+body {
+  font-family: sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+header {
+  margin-bottom: 30px;
+}
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.progress-bar-bg {
+  background: #e0e0e0;
+  border-radius: 999px;
+  height: 10px;
+  margin: 15px 0;
+}
+.progress-bar-fill {
+  background: linear-gradient(to right, indigo, purple);
+  height: 10px;
+  border-radius: 999px;
+  width: 0;
+}
+.grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+.week-grid div {
+  font-size: 14px;
+}
+.motivation {
+  background: linear-gradient(135deg, indigo, purple);
+  color: #fff;
+}
+blockquote {
+  font-style: italic;
+}
+cite {
+  font-size: 12px;
+  opacity: 0.8;
+}
+button {
+  background: indigo;
+  color: #fff;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
