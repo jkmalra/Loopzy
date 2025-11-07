@@ -6,12 +6,11 @@
 
 ## ✨ Features (MVP Version)
 
-- ✅ User Registration and Login (Spring Security)
+- ✅ User Registration and Login
 - ✅ Add and Manage Daily Habits
-- ✅ Basic Gym/Training Schedule Integration
-- ✅ Streak Tracking (Daily Completion)
-- ✅ Badge System (e.g., 3-Day, 7-Day Streak)
+- ✅ Basic Gym/Training Schedule Integration and more
+- ✅ Streak Tracking and Badge System (e.g., 3-Day, 7-Day Streak)
 - ✅ Profile Page with Streak Stats
-- ✅ Fully Responsive Frontend (HTML/CSS/JS)
-- ✅ RESTful Backend (Java + Spring Boot)
-- ✅ Live Deployment (Render / Netlify)
+- ✅ Fully Responsive Frontend (HTML/CSS/JS/REACT)
+- ✅ RESTful Backend (Python + FastAPI)
+- ✅ Deployed On = https://jkmalra.github.io/Loopzy/
