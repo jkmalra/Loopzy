@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ Features (MVP Version)
+## ✨ Version 1.0 aka MVP Version includes:
 
 - ✅ User Registration and Login
 - ✅ Add and Manage Daily Habits
